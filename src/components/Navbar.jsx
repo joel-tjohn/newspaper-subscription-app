@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -13,7 +14,7 @@ const Navbar = () => {
 
                             <nav class="navbar navbar-expand-lg bg-warning">
                                 <div class="container-fluid">
-                                    <a class="navbar-brand" href="/">Add Subscriber</a>
+                                    <Link class="navbar-brand" to="/">Add Subscriber</Link>
                                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                                         aria-label="Toggle navigation">
@@ -22,15 +23,15 @@ const Navbar = () => {
                                     <div class="collapse navbar-collapse" id="navbarNav">
                                         <ul class="navbar-nav">
                                         <li class="nav-item">
-                                                    <a class="nav-link" href="/View">View All Subscriber</a>
+                                                    <Link class="nav-link" to="/View">View All Subscriber</Link>
                                                 </li>
                                             <li class="nav-item">
                                             
-                                                <a class="nav-link active" aria-current="page" href="/Search">Search Subscriber
-                                                   </a>
+                                                <Link class="nav-link active" aria-current="page" to="/Search">Search Subscriber
+                                                   </Link>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="/Delete">Delete Subscriber</a>
+                                                <Link class="nav-link" to="/Delete">Delete Subscriber</Link>
                                             </li>
                                         </ul>
                                     </div>
