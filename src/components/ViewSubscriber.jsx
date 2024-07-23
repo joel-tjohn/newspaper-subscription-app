@@ -1,4 +1,5 @@
 import React from 'react'
+import Title from './Title'
 
 const ViewSubscriber = () => {
   return (
@@ -8,7 +9,10 @@ const ViewSubscriber = () => {
     <div className="row">
         <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-
+     <Title/>
+                     
+                     <h4 class="display-4" >View Subscriber</h4>
+                     <br /><br />
         <table class="table">
   <thead>
     <tr>
