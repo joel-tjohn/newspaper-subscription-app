@@ -1,44 +1,46 @@
 import React from 'react'
 import Title from './Title'
+import Navbar from './Navbar'
 
 const SearchSubscriber = () => {
-  return (
-    <div>
+    return (
+        <div>
 
 
-        <div className="container">
-            <div className="row">
-                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div className="container">
+                <div className="row">
+                    <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-           <Title/>
-                     
-                     <h4 class="display-4" >Search Subscriber</h4>
-                     <br /><br />
+                        <Title />
+                        <Navbar/>
 
-                    <div className="row g-3">
-                        <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                        <h4 class="display-4" >Search Subscriber</h4>
+                        <br /><br />
 
-<label htmlFor="" className="form-label">Search With Name</label>
-<input type="text" className="form-control" />
+                        <div className="row g-3">
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
-
-                        </div>
-                        <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-
-                        <label htmlFor="" className="form-label">Search With District</label>
-                        <input type="text" className="form-control" />
-                        </div>
-                        <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                <label htmlFor="" className="form-label">Search With Name</label>
+                                <input type="text" className="form-control" />
 
 
-                            <button className="btn btn-dark">Search</button>
+                            </div>
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                                <label htmlFor="" className="form-label">Search With District</label>
+                                <input type="text" className="form-control" />
+                            </div>
+                            <div className="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+
+                                <button className="btn btn-dark">Search</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default SearchSubscriber

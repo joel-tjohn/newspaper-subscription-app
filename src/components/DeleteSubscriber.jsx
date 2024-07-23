@@ -1,5 +1,6 @@
 import React from 'react'
 import Title from './Title'
+import Navbar from './Navbar'
 
 const DeleteSubscriber = () => {
     return (
@@ -11,6 +12,7 @@ const DeleteSubscriber = () => {
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
                         <Title />
+                        <Navbar/>
 
                         <h4 class="display-4" >Delete Subscriber</h4>
                         <br /><br />
