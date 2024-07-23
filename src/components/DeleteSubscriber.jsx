@@ -14,7 +14,7 @@ const DeleteSubscriber = () => {
                         <Title />
                         <Navbar/>
 
-                        <h4 class="display-4" >Delete Subscriber</h4>
+                        <h4 class="display-4" ><u>Delete Subscriber</u></h4>
                         <br /><br />
 
                         <div className="row g-3">

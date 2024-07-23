@@ -13,7 +13,7 @@ const ViewSubscriber = () => {
             <Title />
             <Navbar/>
 
-            <h4 class="display-4" >View Subscriber</h4>
+            <h4 class="display-4" ><u>View Subscriber</u></h4>
             <br /><br />
             <table class="table">
               <thead>

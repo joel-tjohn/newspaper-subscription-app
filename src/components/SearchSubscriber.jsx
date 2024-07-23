@@ -14,7 +14,7 @@ const SearchSubscriber = () => {
                         <Title />
                         <Navbar/>
 
-                        <h4 class="display-4" >Search Subscriber</h4>
+                        <h4 class="display-4" ><u>Search Subscriber</u></h4>
                         <br /><br />
 
                         <div className="row g-3">
